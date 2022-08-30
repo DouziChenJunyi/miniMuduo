@@ -3,6 +3,7 @@
 工作内容：核心类包括事件循环类 EventLoop + 对 socketfd 进行封装的通道类 Channel + 事件分发器类 Poller + IO 线程池类 EventLoopThreadPool + 缓冲区类 Buffer 对新连接 accept 进行封装的类 Acceptor + 管理一个 TCP 连接的类 TcpConnection + 管理所有 TCP 连接的服务器类 TcpServer。基于 miniMuduo 网路库编写一个回射服务器验证实例。
 
 ## 【muduo 总结——篇 1】对 muduo 六大核心类的关系梳理
+> 原文出自我的博客：https://www.cnblogs.com/MasterBean/p/16638959.html
 
 <img width="724" alt="image" src="https://user-images.githubusercontent.com/34237564/187386280-c3cda8ad-1602-4d6b-b72b-18210558fc96.png">
 
