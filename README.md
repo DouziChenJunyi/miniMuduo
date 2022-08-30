@@ -4,7 +4,7 @@
 
 ## 【muduo 总结——篇 1】对 muduo 六大核心类的关系梳理
 
-![](https://img2022.cnblogs.com/blog/1466728/202208/1466728-20220830161515825-1281282758.png)
+<img width="724" alt="image" src="https://user-images.githubusercontent.com/34237564/187386280-c3cda8ad-1602-4d6b-b72b-18210558fc96.png">
 
 备注：Reactor 与 EventLoop 可互换，Reactor 是一种模式，EventLoop 是具体类的名称。
 ### 看左边——把握 TcpServer、Acceptor、TcpConnection 三类关系
